@@ -1,0 +1,110 @@
+ 
+/* CSS Document */
+body {
+	font:12px arial;
+	color: #222;
+
+
+	background-color:#000; }
+ 
+
+ 
+input { font:12px arial; }
+ 
+a {
+	color:#0000FF;
+	text-decoration:none; }
+ 
+	a:hover { text-decoration:underline; }
+#loginform {
+	position:fixed;
+	right:0px;
+    bottom: 0px;
+	width:320px;
+    height:30px;
+	background-color:#FFFFFF;
+    border:1px solid #ACD8F0;
+
+	color:green;
+    z-index: 200;
+	}
+
+#chat
+    {
+
+        position:fixed;
+        right:0px;
+        bottom: 0px;
+        background-color:#000000;
+
+        width: 320px;
+        border:1px solid #ACD8F0;
+        z-index: 100;
+    }
+ 
+#chatbox
+    {
+        text-align:left;
+        margin:0 auto;
+        margin-bottom:1px;
+        padding:10px;
+        background:#fff;
+        height:320px;
+        width:280px;
+        border:1px solid #ACD8F0;
+        overflow:auto;
+        font-size: 1em;
+
+    }
+ 
+#usermsg
+    {
+        width:249px;
+        border:2px solid blue;
+        margin-left: 8px;
+    }
+ 
+
+ 
+.error { color: #ff0000; }
+/*for menu and submit form/start*/
+#menu, #loginform
+    {
+        background-color: #6495ed;
+        height:30px;
+        padding-top: 5px;
+        font-size: 1.5em;
+
+    }
+
+#right_menu, #username
+    {
+        width: 250px;
+        margin-right: 5px;
+        float:right;
+    }
+/*for menu and submit form/end*/
+
+ 
+.logout { float:right; }
+
+.right { float:right; }
+.left { float:left; }
+
+.margin_left_5{margin-left: 5px;}
+
+.clear { float:right; }
+ 
+.msgln { margin:0 0 2px 0; }
+
+.green{color:green;}
+
+.red{color: #ff0000;}
+
+.BlueViolet{color: #8a2be2;}
+
+.Brown{color: #a52a2a;}
+
+.Crimson{color: #dc143c;}
+
+.DarkGreen{color: #006400;}
